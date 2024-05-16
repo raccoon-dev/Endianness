@@ -1,0 +1,7 @@
+/out
+/bin
+*.identcache
+*.local
+*.delphilsp.json
+/EndiansTest.res
+/AndroidManifest.template.xml
