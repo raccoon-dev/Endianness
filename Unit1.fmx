@@ -1,0 +1,45 @@
+object FormMain: TFormMain
+  Left = 0
+  Top = 0
+  Caption = 'Endianness test'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 640.000000000000000000
+    Size.Height = 42.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object ButtonRun: TButton
+      Align = Left
+      Margins.Left = 15.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 15.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 129.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Click Me!'
+      OnClick = ButtonRunClick
+    end
+  end
+  object MemoLog: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    ReadOnly = True
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 438.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 636.000000000000000000
+    Viewport.Height = 434.000000000000000000
+  end
+end
